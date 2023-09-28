@@ -43,14 +43,10 @@ body {
     text-decoration-style: solid;
 }
 
+.center {
+    padding-left: 150px;
+}
+
 .gras {
     font-weight: bolder;
-}
-
-#btn {
-    margin: 10px;
-}
-
-.cafe {
-    
 }

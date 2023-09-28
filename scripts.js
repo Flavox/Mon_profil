@@ -1,19 +1,37 @@
-//const cafe = document.querySelector(cafe)
-//cafe.addEventListener("click", () => {
-//    cafe.innerText = "&#127866;"
-//})
+const cafe = document.querySelector(".cafe")
+cafe.addEventListener("click", () => {
+   cafe.innerText = " 🍺 ho !"
+})
 
-//const etvous = document.querySelector(etvous)
+let etvous = document.querySelector(".etvous")
 
-//etvous.addEventListener("click", () => {
-//    etvous.innerText = "et vous aussi !"
-//})
-
-
-let btn = document.querySelector("#projets");
-console.log(btn.innerText)
+etvous.addEventListener("click", () => {
+   etvous.innerText = " Mais vous aussi je suis sur ;)"
+})
 
 
-// btn.addEventListener("click", () => {
-//     btn.innerText = "testé :)"
+// let btn = document.querySelector("#projets");
+// console.log(btn.innerText)
+
+
+btn.addEventListener("click", () => {
+    btn.innerText = "testé :)"
+})
+
+const cntxt = document.querySelector(".contextmenu")
+cntxt.addEventListener("contextmenu", () => {
+    cntxt.style.backgroundColor = "#fefae0"
+})
+
+// const focus = document.querySelector(".focus")
+// focus.addEventListener("focus", () => {
+//     focus.style.textalign = "center"
 // })
+
+const wheel = document.querySelector(".wheel")
+wheel.addEventListener("wheel", () => {
+    wheel.style.color = "#dda15e"
+})
+
+// pour le scroll #dda15e
+// pour le wheel #606c38

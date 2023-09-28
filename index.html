@@ -4,19 +4,17 @@
         <meta charset="utf-8">
         <link href="style.css" rel="stylesheet">
         <title>Mon espace de jeux</title>
-        <!-- <script>
-            let btn = document.getElementById("projets");
-console.log(btn.innerText)
-        </script> -->
     </head>
 
-    <body>
+    <body class="contextmenu">
         <header>
             <navbar>
                 <div class="inline">
                     <ul class="inline">
                     <li><a class="lien" href="#Bienvenue">Bienvenue</a></li>
                     <li><a class="lien" href="#Quijesuis">Qui je suis</a></li>
+                    <li><a class="lien" href="#todo"> Que faire ici ?</a></li>
+                    <li><a class="lien" href="#Form">Formulaire</a></li>
                     <li><a class="lien" href="#projets">Projets</a></li>
                     <li><a class="lien" href="#Autres">AUTRES</a></li>
                 </ul>
@@ -36,6 +34,18 @@ console.log(btn.innerText)
             <li>... et pas très sportif 😬</li>
         </ul>
         </div>
+        <br>
+        <div>
+            <h2 id="todo">Mais alors que faire ici ?</h2>
+            Pour tester mes JS, you can :
+            <ul>
+                <li>Ouvrir le menu contextuelle</li>
+                <li>Utiliser la molette lorsque le curseur est sur le titre "AUTRES"</li>
+                <li>Cliquer sur l'émoji café... 🤔</li>
+                <li>Cliquer sur "et vous ?", juste avant l'émoji</li>
+            </ul>
+        </div>
+        <br>
         <div>
         <h2 id="projets">Les idées potentiels de projet</h2>
         <p>pendant la formation</p>
@@ -44,21 +54,24 @@ console.log(btn.innerText)
         </ul>
         </div>
         <br>
+        <h2 id="Form">Formulaire</h2>
+        <p>❤ Si ta plante cherche une autre plante avec qui passer le reste de sa vie, remplie ce formulaire :</p>
+        <form method="post" action="">
+            <fieldset>
+
+            </fieldset>
+        </form>
+        <br>
         <div>
-        <h2 id="Autres">AUTRES</h2>
+        <h2 id="Autres" class="wheel">AUTRES (et test wheel)</h2>
         <p>Voici un lien dans une image pour montrer mes grandes capacités :</p>
-        <a href="https://www.youtube.com/watch?v=RVB3PBPxMWg" target="_blank"> <img src="imgs/youtube.png" alt="Youtube" height="64px" width="91px"> </a>
+        <a class="center" href="https://www.youtube.com/watch?v=RVB3PBPxMWg" target="_blank"> <img src="imgs/youtube.png" alt="Youtube" height="64px" width="91px"> </a>
         <p>Pi, vous aurez de supers astuces pour apprendre à... apprendre 😉</p>
-        <br><br><br>
-
+        <br><br>
         <button id="btn">Test JS</button>
-
+        <br>
         <p>J'aime <span class="linethrough">bien</span> un peu <span class="gras">trop</span> le café moi...<span class="etvous"> et vous ? </span><span class="cafe">&#9749;</span></p>
         </div>
-
-
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<p>test de ma navbar mais elle ne suit pas le scroll :'(</p>
     </body>
     <footer>
         <script src="scripts.js"></script>
