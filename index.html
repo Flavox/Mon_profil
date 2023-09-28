@@ -43,6 +43,7 @@
                 <li>Utiliser la molette lorsque le curseur est sur le titre "AUTRES"</li>
                 <li>Cliquer sur l'émoji café... 🤔</li>
                 <li>Cliquer sur "et vous ?", juste avant l'émoji</li>
+                <li>Envoyer le formulaire ne l'envoi pas mais un nvl onglet doit s'ouvrir (echec)</li>
             </ul>
         </div>
         <br>
@@ -55,10 +56,29 @@
         </div>
         <br>
         <h2 id="Form">Formulaire</h2>
-        <p>❤ Si ta plante cherche une autre plante avec qui passer le reste de sa vie, remplie ce formulaire :</p>
-        <form method="post" action="">
+        <p class="pink">❤ Si ta plante cherche une autre plante avec qui passer le reste de sa vie, remplie ce formulaire :</p>
+        <form method="post" action="" class="pink">
             <fieldset>
-
+                <legend>Votre plante</legend>
+                <p>De quel type est-elle ?</p>
+                <input type="radio" name="type" value="arbre" id="arbre"> <label for="arbre">un arbre</label>
+                <input type="radio" name="type" value="buisson" id="buisson"> <label for="buisson">un buisson</label>
+                <input type="radio" name="type" value="fleur" id="fleur"> <label for="fleur">une fleur</label>
+                <input type="radio" name="type" value="plante" id="plante"> <label for="plante">une... plante ? (sans fleur quoi 🤷‍♂️)</label>
+                <p>De quelle(s) couleur(s) est-elle ?</p>
+                <input type="checkbox" value="rouge" id="rouge"> <label for="rouge">Rouge</label>
+                <input type="checkbox" value="jaune" id="jaune"> <label for="jaune">Jaune</label>
+                <input type="checkbox" value="vert" id="vert"> <label for="vert">Verte</label>
+                <input type="checkbox" value="bleu" id="bleu"> <label for="bleu">Bleue</label>
+                <input type="checkbox" value="violet" id="violet"> <label for="violet">Violette</label>
+                <p>Encore quelques infos sur ton végétal</p>
+                <label for="nom">Elle s'appelle :</label>
+                <input type="text" placeholder="Nom" id="nom" class="focus">
+                <label for="tel">Son numéro de téléphone</label>
+                <input type="tel" id="tel" placeholder="🤭">
+                <label for="infos"> Quel est son caractère ?</label>
+                <textarea name="infos" id="infos" placeholder="Envahissante ? Gourmande ?"></textarea>
+                <br><br><input type="submit" value="Chercher les plantes similaires now !" class="lovesong">
             </fieldset>
         </form>
         <br>
