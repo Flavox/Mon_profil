@@ -1,0 +1,56 @@
+body {
+    background-color: #C5D1EB;
+}
+
+/*.blue li {
+    height : 130px;
+    background-color: #43729D;
+}*/
+
+
+.inline {
+    background-color: #43729D;
+    height: 100px;
+    display: flex;
+    margin: initial;
+    column-gap: 30px;
+    align-items: center;
+    padding-right: 40px;
+    position: fixed;
+}
+
+.inline li {
+    border: 2px solid #5C2F1F;
+    padding: 1em;
+    border-radius: 10px;
+    display: flex;
+    column-gap: 50px;
+    background-color: #65743A;
+    height: fit-content;
+}
+
+.lien {
+    text-decoration: none;
+    color: #D4DF9E;
+}
+
+.paddingtop {
+    padding-top: 100px;
+}
+
+.linethrough {
+    text-decoration: line-through;
+    text-decoration-style: solid;
+}
+
+.gras {
+    font-weight: bolder;
+}
+
+#btn {
+    margin: 10px;
+}
+
+.cafe {
+    
+}
