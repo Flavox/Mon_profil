@@ -54,3 +54,18 @@ body {
 .gras {
     font-weight: bolder;
 }
+
+.bordertop {
+    border-top: 2px dashed grey;
+}
+
+.sujet {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#top {
+    position: fixed;
+    bottom: 15px;
+    right: 40px;
+}
